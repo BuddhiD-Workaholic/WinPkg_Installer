@@ -46,8 +46,11 @@ def javaInstall_F(path):
     global pathName
     try:
         subfolders = [ f.path for f in os.scandir(path) if f.is_dir() ]
-        pathName=os.path.join(subfolders[0], 'bin')
-        print ("Path: "+pathName)
+        Temppath=os.path.join(subfolders[0], 'bin')
+        if os.listdir(Temppath) == []:
+            pathName=subfolders[0]
+        else:
+            pathName=Temppath   
     except:
         subprocess.Popen(r'explorer /select,"'+path+'"')
         print("There's been an error!, Try to set the folder path in the Enviornmantal variables by your self! \n")
