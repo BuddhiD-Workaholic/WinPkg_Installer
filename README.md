@@ -11,11 +11,11 @@ pip install WinPkgIn
 ```
 
 ## Usage
-Supporterd extensisions resource with: (.zip/.7z/.rar/.rar5/folders wihout extenstions)etc.
+Supporterd extensisions resource with: (.zip/.7z/.rar/.rar5/folders wihout extenstions) etc.
 ```bash
 $ WinPkgIn 
 ```
-### Install Java/Java Script Packages/ Any GitHub Package (.zip files)
+### Install Java/Java Script Packages/ Any GitHub Package (.zip and noun .zip files)
 #### Java/Maven/Gridle/Node JS/Vue JS etc
 `-i <Resource Web URL Link> <Folder Name>`
 ```bash
