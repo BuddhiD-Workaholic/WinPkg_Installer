@@ -1,4 +1,4 @@
-# WinPkg_Installer
+# WinPkgIn Installer for Windows
 
 WinPkgIn let's Windows users to download packages to their devices and it automatically add the package path to the windows Environment variable, System "path". 
 Current version = "1.0"
@@ -11,25 +11,26 @@ pip install WinPkgIn
 ```
 
 ## Usage
+Supporterd extensisions resource with: (.zip/.7z/.rar/.rar5/<folder>)etc.
 ```bash
 $ WinPkgIn 
 ```
 ### Install Java/Java Script Packages/ Any GitHub Package (.zip files)
 #### Java/Maven/Gridle/Node JS/Vue JS etc
-`search <name>`
+`-i <Resource Web URL> <Folder Name>`
 ```bash
-$ cver look-up CVE-2020-2121
+$ WinPkgIn -j python
 ```
 ### Install Packages/Folders
 #### PHP
-`search <keyword>`
+`-j <Resource Web URL> <Folder Name>`
 ```bash
-$ cver search python
+$ WinPkgIn -j python
 ```
 ### Help
-`search <keyword>`
+`-h`
 ```bash
-$ cver search python
+$ WinPkgIn -h
 ```
 
 ## Contributing
