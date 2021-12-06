@@ -21,16 +21,18 @@ $ WinPkgIn
 ```
 ### Install Java/Java Script Packages/ Any GitHub Package (.zip and noun .zip files)
 #### Java/Maven/Gridle/Node JS/Vue JS etc
-`-i <Resource Web URL Link> <Folder Name>`
-```bash
-$ WinPkgIn -i https://windows.php.net/downloads/releases/php-8.1.0-Win32-vs16-x64.zip PHP 
-```
-### Install Packages/Folders
-#### PHP
 `-j <Resource Web URL Link> <Folder Name>`
 ```bash
 $ WinPkgIn -j https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.zip Java
 ```
+
+### Install Packages/Folders
+#### PHP
+`-i <Resource Web URL Link> <Folder Name>`
+```bash
+$ WinPkgIn -i https://windows.php.net/downloads/releases/php-8.1.0-Win32-vs16-x64.zip PHP 
+```
+
 ### Help
 `-h`
 ```bash
