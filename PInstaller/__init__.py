@@ -21,7 +21,7 @@ try:
 
 	for currentArgument, currentValue in arguments:
 		if currentArgument in ("-h", "--Help"):
-			print (" -i <Web Resource Url> <Folder Name> \n Enter the URL of the resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:Java/PHP/MAVEN)etc. \n") 
+			print (" -i <Web Resource Url> <Folder Name> \n Enter the URL of the resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:GIT/PHP)etc. \n -j <Java Web Resource Url> <Folder Name> \n Enter the URL of the java resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:Java/MAVEN/Gradle)etc. \n") 
 		elif currentArgument in ("-i","--Install") or currentArgument in ("-j","--Java_Packages"):
 		    xy=True
 
