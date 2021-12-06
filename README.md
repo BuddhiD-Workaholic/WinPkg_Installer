@@ -10,23 +10,23 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install WinPkgI
 pip install WinPkgIn
 ```
 
-# Usage
+## Usage
 ```bash
 $ WinPkgIn 
 ```
-## Install Java/Java Script Packages/ Any GitHub Package (.zip files)
-### Java/Maven/Gridle/Node JS/Vue JS etc
+### Install Java/Java Script Packages/ Any GitHub Package (.zip files)
+#### Java/Maven/Gridle/Node JS/Vue JS etc
 `search <name>`
 ```bash
 $ cver look-up CVE-2020-2121
 ```
-## Install Packages/Folders
-### PHP
+### Install Packages/Folders
+#### PHP
 `search <keyword>`
 ```bash
 $ cver search python
 ```
-## Help
+### Help
 `search <keyword>`
 ```bash
 $ cver search python
