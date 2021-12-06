@@ -9,6 +9,10 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install WinPkgI
 ```bash
 pip install WinPkgIn
 ```
+or
+```bash
+python pip install WinPkgIn
+```
 
 ## Usage
 Supporterd extensisions resource with: (.zip/.7z/.rar/.rar5/folders wihout extenstions) etc.
