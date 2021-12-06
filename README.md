@@ -11,7 +11,7 @@ pip install WinPkgIn
 ```
 
 ## Usage
-Supporterd extensisions resource with: (.zip/.7z/.rar/.rar5/<folder>)etc.
+Supporterd extensisions resource with: (.zip/.7z/.rar/.rar5/folders wihout extenstions)etc.
 ```bash
 $ WinPkgIn 
 ```
