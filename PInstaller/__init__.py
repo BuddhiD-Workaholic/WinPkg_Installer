@@ -1,6 +1,6 @@
 import os
 import urllib.request
-import subprocess as sp
+import subprocess
 import ctypes, sys
 import getopt
 import time
@@ -44,9 +44,13 @@ def is_admin():
 
 def javaInstall_F(path):
     global pathName
-    subfolders = [ f.path for f in os.scandir(path) if f.is_dir() ]
-    pathName=os.path.join(subfolders[0], 'bin')
-    print ("Path: "+pathName)
+    try:
+        subfolders = [ f.path for f in os.scandir(path) if f.is_dir() ]
+        pathName=os.path.join(subfolders[0], 'bin')
+        print ("Path: "+pathName)
+    except:
+        subprocess.Popen(r'explorer /select,"'+path+'"')
+        print("There's been an error!, Try to set the folder path in the Enviornmantal variables by your self! \n")
 
 if is_admin():
     pathName=os.path.join('C:\PROGRA~1', PkgName)
@@ -74,13 +78,16 @@ if is_admin():
         from urllib.request import urlretrieve
         import cgi
 
-        url = file_URL
-        remotefile = urlopen(url)
-        blah = remotefile.info()['Content-Disposition']
-        value, params = cgi.parse_header(blah)
-        pathName=os.path.join(pathName, params["filename"])
-        urlretrieve(url, pathName)
-    
+        try:
+            url = file_URL
+            remotefile = urlopen(url)
+            blah = remotefile.info()['Content-Disposition']
+            value, params = cgi.parse_header(blah)
+            pathName=os.path.join(pathName, params["filename"])
+            urlretrieve(url, pathName)
+        except:
+            print("There's been an error!, The Web resource folder is corrupted or wrong WEb resource URL is added! \n")
+            
     #System Path change
     Path='setx /M path "%path%;'+pathName+'"'
     os.system(Path) 
