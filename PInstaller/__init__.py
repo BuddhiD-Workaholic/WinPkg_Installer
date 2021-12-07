@@ -4,6 +4,7 @@ import subprocess
 import ctypes, sys
 import getopt
 import time
+import ssl
 from sys import platform
 from zipfile import ZipFile
 
@@ -15,6 +16,8 @@ long_options = ["Help", "Install","Java_Packages"]
 PkgName=""
 file_URL=""	
 xy=False
+
+ssl._create_default_https_context = ssl._create_unverified_context  
 
 try:
 	arguments, values = getopt.getopt(argumentList, options, long_options)
@@ -89,7 +92,7 @@ if is_admin():
             pathName=os.path.join(pathName, params["filename"])
             urlretrieve(url, pathName)
         except:
-            print("There's been an error!, The Web resource folder is corrupted or wrong WEb resource URL is added! \n")
+            print("There's been an error!, The Web resource folder is corrupted or wrong WEB resource URL is added! \n")
             
     #System Path change
     Path='setx /M path "%path%;'+pathName+'"'
