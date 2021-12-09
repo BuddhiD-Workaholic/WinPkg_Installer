@@ -4,13 +4,13 @@ WinPkgIn let's Windows users to download packages to their devices and it automa
 Current version = "1.0"
 
 ## Installation
-###Method 01: 
+### Method 01: 
 Downlaod the WinPkgIn.exe file in [WinPkg_Installer](https://github.com/BuddhiD-Workaholic/WinPkg_Installer/tree/main/Installer%20(.exe)%20file) directory and add it to System path 
 ```bash
 WinPkgIn
 ```
 
-###Method 02: 
+### Method 02: 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install WinPkgIn.
 ```bash
 pip install WinPkgIn
