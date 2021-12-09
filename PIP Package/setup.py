@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
 		name ='WinInstaller',
-		version ='1.0.0',
+		version ='1.0.1',
 		author="Buddhi Dhananjaya",
         author_email="buddhi_dhananjaya@outlook.com",
         description="This package let's windows users to downlaod and install .zip or anyother files including adding the path to the Enviornmental Variables bychanging the PATH variable",
