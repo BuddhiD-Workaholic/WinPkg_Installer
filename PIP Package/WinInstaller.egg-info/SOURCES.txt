@@ -1,0 +1,10 @@
+README.md
+setup.py
+WinInstaller.egg-info/PKG-INFO
+WinInstaller.egg-info/SOURCES.txt
+WinInstaller.egg-info/dependency_links.txt
+WinInstaller.egg-info/entry_points.txt
+WinInstaller.egg-info/not-zip-safe
+WinInstaller.egg-info/top_level.txt
+WinPkg_Installer/WinInstaller.py
+WinPkg_Installer/__init__.py

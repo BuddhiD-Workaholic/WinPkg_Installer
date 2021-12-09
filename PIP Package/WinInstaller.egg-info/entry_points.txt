@@ -1,0 +1,3 @@
+[console_scripts]
+WinInstaller = WinPkg_Installer.WinInstaller:main
+
