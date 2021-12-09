@@ -3,6 +3,8 @@
 WinPkgIn let's Windows users to download packages to their devices and it automatically add the package path to the windows Environment variable, System "path". 
 Current version = "1.0"
 
+#### Supported Windows versions:- Windows 7+ 
+
 [![Image.png](https://i.postimg.cc/XYR6VpQT/Image.png)](https://postimg.cc/w1QG2TKV)
 
 ## Installation
