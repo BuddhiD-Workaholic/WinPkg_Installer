@@ -15,7 +15,7 @@ WinPkgIn
 ```
 
 #### Method 02: 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install WinPkgIn.
+Use the package manager [pip](https://pypi.org/project/WinPkgIn/) to install WinPkgIn.
 ```bash
 pip install WinPkgIn
 ```
