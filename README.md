@@ -9,7 +9,7 @@ Current version = "1.0"
 
 ## Installation
 #### Method 01: 
-Downlaod the WinPkgIn.exe file in [WinPkg_Installer](https://github.com/BuddhiD-Workaholic/WinPkg_Installer/tree/main/Installer%20(.exe)%20file) directory and add the downloaded folder path to to the System path/ Environment variable. 
+Downlaod the WinInstaller.exe file in [WinPkg_Installer](https://github.com/BuddhiD-Workaholic/WinPkg_Installer/tree/main/Installer%20(.exe)%20file) directory and add the downloaded folder path to to the System path/ Environment variable. 
 ```bash
 WinInstaller
 ```
