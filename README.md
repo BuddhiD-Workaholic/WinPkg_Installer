@@ -17,7 +17,7 @@ WinInstaller
 #### Method 02: 
 Use the package manager [pip](https://pypi.org/project/WinInstaller/) to install WinPkgIn.
 ```bash
-pip install WinPkgIn
+pip install WinInstaller
 ```
 or
 ```bash
