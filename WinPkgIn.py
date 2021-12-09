@@ -20,7 +20,7 @@ xy=False
 ssl._create_default_https_context = ssl._create_unverified_context
   
 if len(sys.argv) <= 1:
-    print ("  -- No argumants passed! --\n  -i <Web Resource Url> <Folder Name> \n Enter the URL of the resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:GIT/PHP)etc. \n -j <Java Web Resource Url> <Folder Name> \n Enter the URL of the java resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:Java/MAVEN/Gradle)etc. \n -h for Help \n");
+    print ("  -- No argumants passed! --\n  -i <Web Resource Url> <Folder Name> \n Enter the URL of the resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:PHP/Anyother packages)etc. \n -j <Java Web Resource Url> <Folder Name> \n Enter the URL of the java/GitHub/ resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:Java/MAVEN/Gradle/Any Github sourc files)etc. \n -h for Help \n");
     sys.exit()
     
 try:
@@ -28,11 +28,11 @@ try:
 	
 	for currentArgument, currentValue in arguments:
 		if currentArgument in ("-h", "--Help"):
-			print ("Git Respository link: https://bit.ly/3EF9TeA \n  -i <Web Resource Url> <Folder Name> \n Enter the URL of the resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:GIT/PHP)etc. \n -j <Java Web Resource Url> <Folder Name> \n Enter the URL of the java resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:Java/MAVEN/Gradle)etc. \n -h for Help \n");  sys.exit() 
+			print ("Git Respository link: https://bit.ly/3EF9TeA \n  -i <Web Resource Url> <Folder Name> \n Enter the URL of the resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:PHP/Anyother packages)etc. \n -j <Java Web Resource Url> <Folder Name> \n Enter the URL of the java/GitHub/ resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:Java/MAVEN/Gradle/Any Github sourc files)etc. \n -h for Help \n");  sys.exit() 
 		elif currentArgument in ("-i","--Install") or currentArgument in ("-j","--J_Packages"):
 			xy=True
 		else: 
-			print ("Git Respository link: https://bit.ly/3EF9TeA \n  -i <Web Resource Url> <Folder Name> \n Enter the URL of the resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:GIT/PHP)etc. \n -j <Java Web Resource Url> <Folder Name> \n Enter the URL of the java resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:Java/MAVEN/Gradle)etc. \n -h for Help \n");  sys.exit() 
+			print ("Git Respository link: https://bit.ly/3EF9TeA \n  -i <Web Resource Url> <Folder Name> \n Enter the URL of the resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:PHP/Anyother packages)etc. \n -j <Java Web Resource Url> <Folder Name> \n Enter the URL of the java/GitHub/Anyother resource (eg:.zip/.7z/.rar/<folder>)etc. And then enter a Folder name (eg:Java/Maven/Gridle/Node JS/Vue JS/Any Github sourc files)etc. \n -h for Help \n");  sys.exit() 
 
 except (IndexError, getopt.error) as err:
 	print (str(err)+" ^1")
