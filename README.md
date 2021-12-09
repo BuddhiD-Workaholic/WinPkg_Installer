@@ -5,7 +5,7 @@ Current version = "1.0"
 
 ## Installation
 
-Downlaod the .exe file in and add it to System path 
+Downlaod the .exe file in WinPkg_Installer/Installer (.exe) file/ and add it to System path 
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install WinPkgIn.
 ```bash
