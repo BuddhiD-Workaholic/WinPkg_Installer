@@ -1,0 +1,3 @@
+[console_scripts]
+WinPkgIn = WinPkg.WinPkgIn:main
+
