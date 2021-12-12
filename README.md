@@ -1,6 +1,6 @@
-# WinPkgIn Installer for Windows
+# WinInstaller  Installer for Windows
 
-WinPkgIn let's Windows users to download packages to their devices and it automatically add the package path to the windows Environment variable, System "path". 
+WinInstaller let's Windows users to download packages to their devices and it automatically add the package path to the windows Environment variable, System "path". 
 Current version = "1.0"
 
 #### Supported Windows versions:- Windows 7+ 
